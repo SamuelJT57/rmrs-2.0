@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(38, 38, 38);
-    color: rgb(155, 199, 255);
+    color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(155, 199, 255);
+    color: rgb(66, 66, 66);
     margin: 0 15px;
 }
 
@@ -54,4 +53,15 @@ img {
     max-width: 100%;
     height: auto;
     background-color: #f39237;
+}
+
+navigation {
+    margin: 10px 0;
+}
+
+.driverPages {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
